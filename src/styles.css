@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+body{
+	font-family: 'Fragment Mono', monospace !important;
+	letter-spacing: -0.025em;
+
+}
