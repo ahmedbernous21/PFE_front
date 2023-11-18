@@ -1,9 +1,10 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import '~font-awesome/css/font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
 body{
 	font-family: 'Fragment Mono', monospace !important;
-	letter-spacing: -0.025em;
+	letter-spacing: -0.05em;
 
 }

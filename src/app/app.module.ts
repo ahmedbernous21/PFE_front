@@ -10,6 +10,8 @@ import { DefaultComponent } from './layout/default/default.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { CatalogComponent } from './pages/catalog/catalog.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HomeComponent } from './pages/home/home.component';
     DefaultComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    CatalogComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
