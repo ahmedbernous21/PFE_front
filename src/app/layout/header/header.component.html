@@ -1,10 +1,10 @@
-<nav class="bg-white shadow-lg pt-3">
+<nav class="bg-white shadow-lg pt-3 w-full">
   <div class="container flex justify-between items-center">
     <div class="flex space-x-4 pt-2 ">
       <a
       *ngFor="let page of pages"
-      class="no-underline px-3 relative inline-block pb-2 border-b-2 text-lg
-       hover:border-agroGreen transition duration-300 text-center opacity-50"
+      class="shrink no-underline px-3 relative inline-block pb-2 border-b-2 text-lg
+       hover:border-agroGreen hover:opacity-60 transition duration-300 text-center opacity-40"
       [routerLink]="page.link"
       [routerLinkActive]="['border-agroGreen', 'opacity-100']"
       [routerLinkActiveOptions]="
@@ -15,7 +15,7 @@
     </a>
     </div>
 
-    <button class="bg-agroYellow text-black py-2 px-4 mb-1 rounded hover:opacity-70">
+    <button class="bg-agroYellow text-black py-2 px-4 mb-1 rounded hover:opacity-70 max-sm:hidden">
       Login
     </button>
   </div>
