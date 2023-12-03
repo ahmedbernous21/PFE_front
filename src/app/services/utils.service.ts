@@ -13,7 +13,7 @@ export class UtilsService {
   getApiEndpoint() {
     let apiEndpoint: string;
     if (isPlatformBrowser(this.platformId)) {
-      apiEndpoint = environment.browserApiEndpoint;
+      apiEndpoint = environment.serverApiEndpoint;
     } else {
       apiEndpoint = environment.serverApiEndpoint;
     }
